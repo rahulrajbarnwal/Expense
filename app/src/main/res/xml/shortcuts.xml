@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Quick actions shown when the app icon is long-pressed.
+    Each intent carries a "route" extra that AppDeepLinks.resolve() turns into a NavDestination.
+-->
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <shortcut
+        android:shortcutId="add_expense"
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_add_expense"
+        android:shortcutShortLabel="@string/shortcut_add_expense_short"
+        android:shortcutLongLabel="@string/shortcut_add_expense_long">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.icit.expense"
+            android:targetClass="com.icit.expense.MainActivity">
+            <extra
+                android:name="route"
+                android:value="add_expense" />
+        </intent>
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="analytics"
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_analytics"
+        android:shortcutShortLabel="@string/shortcut_analytics_short"
+        android:shortcutLongLabel="@string/shortcut_analytics_long">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.icit.expense"
+            android:targetClass="com.icit.expense.MainActivity">
+            <extra
+                android:name="route"
+                android:value="analytics" />
+        </intent>
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="feedback"
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_feedback"
+        android:shortcutShortLabel="@string/shortcut_feedback_short"
+        android:shortcutLongLabel="@string/shortcut_feedback_long">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.icit.expense"
+            android:targetClass="com.icit.expense.MainActivity">
+            <extra
+                android:name="route"
+                android:value="feedback" />
+        </intent>
+    </shortcut>
+
+</shortcuts>

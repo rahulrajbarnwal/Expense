@@ -1,0 +1,15 @@
+<resources>
+
+    <style name="Theme.Expense" parent="Theme.MaterialComponents.Light.NoActionBar" />
+
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <!-- Set the splash screen background, animated icon, and animation duration. -->
+        <item name="windowSplashScreenBackground">@color/primary</item>
+
+        <!-- Use windowSplashScreenAnimatedIcon to replace the default icon -->
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher</item>
+
+        <!-- Set the theme of the Activity that directly follows your splash screen. -->
+        <item name="postSplashScreenTheme">@style/Theme.Expense</item>
+    </style>
+</resources>

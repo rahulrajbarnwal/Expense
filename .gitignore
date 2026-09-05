@@ -1,0 +1,51 @@
+# Built application files
+*.apk
+*.aar
+*.ap_
+*.aab
+*.dex
+*.class
+
+# Gradle
+.gradle/
+build/
+/build
+/captures
+/app/build
+/core/font/build
+
+# Local configuration
+local.properties
+*.iml
+.cxx
+.externalNativeBuild
+
+# Kotlin
+.kotlin/
+
+# Android Studio / IntelliJ
+.idea/
+
+# Firebase — supply your own; see google-services.json.example and the README
+app/google-services.json
+google-services.json
+firebase-debug.log
+.firebase/
+
+# Secrets — supply your own; see secrets.properties.example and the README
+secrets.properties
+
+# Signing — never commit these
+*.jks
+*.keystore
+keystore.properties
+signing.properties
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Agent / tooling scratch
+.agent/
+.claude/
+input_images/

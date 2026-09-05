@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Expense</string>
+
+    <!-- App icon long-press shortcuts -->
+    <string name="shortcut_add_expense_short">Add expense</string>
+    <string name="shortcut_add_expense_long">Add a new expense</string>
+    <string name="shortcut_analytics_short">Analytics</string>
+    <string name="shortcut_analytics_long">View spending analytics</string>
+    <string name="shortcut_feedback_short">Write to CEO</string>
+    <string name="shortcut_feedback_long">Send feedback to the CEO</string>
+</resources>
