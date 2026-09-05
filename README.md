@@ -15,15 +15,15 @@ A modern, offline-first personal expense tracker for Android, built entirely wit
 
 ## 📱 Screenshots
 
-| Dashboard | Financial Insights | Analytics |
-|:---:|:---:|:---:|
-| <img src="screens/expense_1.png" width="230"/> | <img src="screens/expense_6.png" width="230"/> | <img src="screens/expense_2.png" width="230"/> |
-| Today's spend, budget progress and insight cards | Top spending categories with per-category budget bars | Donut distribution + spending trend chart |
-
-| Add Expense | Historical Explorer | Budget Planner | Dark Theme |
+| Dashboard | Financial Insights | Analytics | Add Expense |
 |:---:|:---:|:---:|:---:|
-| <img src="screens/expense_3.png" width="200"/> | <img src="screens/expense_4.png" width="200"/> | <img src="screens/expense_5.png" width="200"/> | <img src="screens/expense_7.png" width="200"/> |
-| Material 3 form with date picker | Month / date filtered history | Monthly + per-category budgets | Full dark mode support |
+| <img src="screens/expense_1.png" width="200"/> | <img src="screens/expense_6.png" width="200"/> | <img src="screens/expense_2.png" width="200"/> | <img src="screens/expense_3.png" width="200"/> |
+| Today's spend, budget progress and insight cards | Top spending categories with per-category budget bars | Donut distribution + spending trend chart | Material 3 form with date picker |
+
+| Historical Explorer | Budget Planner | Settings | Dark Theme |
+|:---:|:---:|:---:|:---:|
+| <img src="screens/expense_4.png" width="200"/> | <img src="screens/expense_5.png" width="200"/> | <img src="screens/expense_0.png" width="200"/> | <img src="screens/expense_7.png" width="200"/> |
+| Month / date filtered history | Monthly + per-category budgets | Theme mode, sign-in and privacy in a bottom sheet | Full dark mode support |
 
 ---
 
